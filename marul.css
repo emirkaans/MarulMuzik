@@ -1,0 +1,110 @@
+.jumbotron {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,64,82,1) 49%, rgba(0,212,255,1) 100%);
+    opacity: .9;
+    text-align: center;
+    height: 320px;
+}
+
+body{
+    background-image: url(img/3.jpg);
+    
+}
+
+main {
+    min-height: calc(70vh - 211px - 58px);
+}
+
+.header-name{
+    margin-right: 50px;
+    transition: background-color .5s;
+    border-radius: 8px;
+    color: white;
+    width: 40px;
+    
+}
+
+.header-name:hover{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+
+}
+
+footer{
+    height: 290px; 
+}
+
+.product-name{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-style: bold;
+    width: 80%;
+    margin-top: 7px;
+    transition: background-color .5s;
+    margin-bottom: 25px;
+}
+
+.product-name:hover{
+    background-color: crimson;
+}
+
+.last-item {
+    margin-bottom: 70px;
+}
+
+.product-photo {
+    border-radius: 70px;
+    border-style: double;
+}
+
+.product-header {
+    width: 290px;
+    border-radius: 30px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    text-align: center;
+    margin: auto;
+    transition: background-color .5s;
+}
+
+.product-header:hover{
+    background-color: crimson;
+}
+
+button {
+    border-radius: 20px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    transition: background-color .5s;
+      
+}
+
+button:hover{
+    background-color: crimson;
+    
+}
+
+.button-none:hover{
+    text-decoration: none;
+}
+
+.about {
+    border-radius: 20px;
+    padding: 30px;
+    border-color: rgb(109, 131, 231);
+    border-style: inset;
+    opacity: .93;
+}
+
+
+   
+
+
+
+
